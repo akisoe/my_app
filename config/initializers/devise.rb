@@ -133,13 +133,10 @@ Devise.setup do |config|
 
   # If true, extends the user's remember period when remembered via cookie.
   # config.extend_remember_period = false
-
-  # Options to be passed to the created cookie. For instance, you can set
-  # secure: true in order to force SSL only cookies.
-  # config.rememberable_options = {}
+  berable_options = {}
 
   # ==> Configuration for :validatable
-  # Range for password length.
+  # Range for password length.  
   config.password_length = 6..128
 
   # Email regex used to validate email formats. It simply asserts that
