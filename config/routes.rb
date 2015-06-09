@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+MyApp::Application.routes.draw do
   devise_for :users, :controllers => {
     :registrations => "registrations"
   }
